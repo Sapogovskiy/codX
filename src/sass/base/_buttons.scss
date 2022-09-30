@@ -1,0 +1,14 @@
+.btn {
+    background-color: #2F2F2F;
+    color: #FFFFFF;
+    cursor: pointer;
+    &_rounded {
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 16px;
+        border-radius: 20px;
+        padding: 11px 15px 15px 15px;
+        text-align: center;
+        border: none;
+    }
+}

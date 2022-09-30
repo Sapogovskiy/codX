@@ -1,4 +1,4 @@
-* {
+body {
     font-family: 'Outfit', sans-serif;
 
 }
@@ -9,3 +9,7 @@
 }
 
 @import 'blocks/header';
+@import 'base/buttons';
+@import 'blocks/promo';
+@import 'base/variables';
+@import 'blocks/carousel';
