@@ -1,0 +1,36 @@
+.examples {
+    &__wrapper {
+        display: flex;
+        margin-bottom: 84px;
+    }
+    &__description {
+        padding-left: 15px;
+        span {
+            font-weight: 400;
+            font-size: 35px;
+            line-height: 36px;
+            letter-spacing: 0.48px;
+            text-transform: uppercase;
+            color: #2F2F2F;
+            margin: 57px 359px 7px 48px;
+        }
+        &_question {
+            font-weight: 400;
+            font-size: 48px;
+            line-height: 48px;
+            letter-spacing: 0.48px;
+            color: #2F2F2F;
+            margin-right: 66px;
+            margin-left: 48px;
+            margin-bottom: 38px;
+        }
+        &_text {
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 26px;
+            letter-spacing: 0.48px;
+            color: #2F2F2F;
+            margin-left: 48px;
+        }
+    }
+}
