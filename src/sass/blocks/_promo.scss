@@ -2,6 +2,11 @@
     &__wrapper {
         display: flex;
     }
+    &__carousel {
+        &_slide {
+            display: flex;
+        }
+    }
     &__left {
         margin: 180px 0 310px 0;
         .subtitle {

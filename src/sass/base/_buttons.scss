@@ -1,6 +1,7 @@
 .btn {
     background-color: #2F2F2F;
     color: #FFFFFF;
+    border: none;
     cursor: pointer;
     &_rounded {
         font-weight: 700;
@@ -21,5 +22,13 @@
         border: none;
         margin-top: 32px;
         float: right;
+    }
+    &_join {
+        margin-top: 48px;
+        padding: 12px 40px 16px;
+    }
+    &_colections {
+        padding: 12px 40px 16px;
+        margin-top: 67px;
     }
 }

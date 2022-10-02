@@ -1,5 +1,5 @@
 .vacancies {
-    padding-bottom: 204px;
+    padding-bottom: 144px;
     &__wrapper {
         display: flex;
     }
@@ -10,6 +10,7 @@
         padding: 64px 0 64px 64px;
     }
     &__item {
+        margin-bottom: 32px;
         &_number1{
             display: flex;
             align-items: center;

@@ -1,7 +1,15 @@
 $(document).ready(function(){
+    $('.promo__carousel').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        fade: true,
+        asNavFor: '.carousel_inner'
+      });
     $('.carousel__inner').slick({
         infinite: true,
         arrows: false,
+        asNavFor: '.promo__carousel',
         autoplay: true,
         autoplaySpeed: 2000,
         slidesToShow: 8,

@@ -1,0 +1,91 @@
+.bestceiler {
+    &__wrapper {
+        margin-top: 104px;
+    }
+    &__name {
+        text-align: center;
+        padding-bottom: 16px;
+    }
+    &__cards {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding-right: 38px;
+    }
+}
+
+.card {
+    cursor: pointer;
+    &__info {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        // &_id {
+        //     color: #2F2F2F;
+        //     font-weight: 700;
+        //     font-size: 17px;
+        //     line-height: 18px;
+        // }
+        // &_name {
+        //     color: #2F2F2F;
+        //     font-weight: 400;
+        //     font-size: 16px;
+        //     line-height: 18px;
+        // }
+        &_view {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 38px;
+            height: 38px;
+            background-color: rgba(168, 193, 216, 0.2);
+        }
+        &_block {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 38px;
+            height: 38px;
+            background: #FF7F96;
+            border-radius: 30px;
+        }
+        &_left {
+            display: flex;
+            .info__name {
+                color: #2F2F2F;
+                font-weight: 400;
+                font-size: 16px;
+                margin-right: 21px;
+                line-height: 18px;   
+            }
+            .info_id {
+                color: #2F2F2F;
+                font-weight: 700;
+                font-size: 17px;
+                line-height: 18px;
+            }
+        }
+        &_right {
+            display: flex;
+            .info__view {
+                width: 38px;
+                height: 38px;
+                background-color: rgba(168, 193, 216, 0.2);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-right: 8px;
+            }
+            .info__block {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 38px;
+            height: 38px;
+            background: #FF7F96;
+            border-radius: 30px;
+            margin-right: 20px;
+            }
+        }
+    }
+}

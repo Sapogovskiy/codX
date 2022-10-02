@@ -1,0 +1,34 @@
+.join {
+    position: relative;
+    padding-top: 60px;
+    &:hover .join__bg {
+        opacity: 0;
+        transition: 0.8s;
+        visibility: hidden;
+    }
+    &__wrapper {
+    margin: 0 auto;
+    padding-top: 71px ;
+    padding-left: 120px;
+    background: #82CBAC;
+    z-index: 1;
+    
+    }
+    &__descr {
+        padding-top: 33px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 26px;
+        color: #2F2F2F;
+    }
+    &__bg {      
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        transition: 0.8s;
+    }
+}

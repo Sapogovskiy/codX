@@ -1,3 +1,29 @@
 .colections {
-    
+    &__wrapper {
+    }
+    &__name {
+        margin-top: 101px;
+        text-align: center;
+    }
+    &__cards {
+        display: flex;
+        margin-top: 56px;
+        justify-content: space-between;
+        .card {
+            cursor: pointer;
+            &_descr {
+                color: #2F2F2F;
+                font-weight: 700;
+                padding-top: 29px;
+                padding-left: 50px;
+                padding-bottom: 37px;
+                font-size: 26px;
+                line-height: 26px;
+            }
+        }
+    }
+    &__btn {
+        display: flex;
+        justify-content: center;
+    }
 }
