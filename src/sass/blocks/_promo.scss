@@ -4,11 +4,14 @@
     }
     &__carousel {
         &_slide {
-            display: flex;
+            .slide__wrapper {
+                display: flex;
+                align-items: center;
+            }
         }
     }
     &__left {
-        margin: 180px 0 310px 0;
+        // margin: 180px 0 310px 0;
         .subtitle {
             color: #82CBAC;
             font-weight: 400;
@@ -22,5 +25,9 @@
             line-height: 26px;
             margin-top: 25px;
         }
+    }
+
+    &__left, &__right {
+        width: 50%;
     }
 }

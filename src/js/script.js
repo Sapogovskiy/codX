@@ -4,16 +4,25 @@ $(document).ready(function(){
         slidesToScroll: 1,
         arrows: false,
         fade: true,
-        asNavFor: '.carousel_inner'
+        asNavFor: '.carousel__inner'
       });
-    $('.carousel__inner').slick({
-        infinite: true,
-        arrows: false,
-        asNavFor: '.promo__carousel',
-        autoplay: true,
-        autoplaySpeed: 2000,
+    // $('.carousel__inner').slick({
+    //     infinite: true,
+    //     arrows: false,
+    //     asNavFor: '.promo__carousel',
+    //     autoplay: true,
+    //     autoplaySpeed: 2000,
+    //     slidesToShow: 2,
+    //     slidesToScroll: 1
+    //   });
+
+      $('.carousel__inner').slick({
         slidesToShow: 8,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        asNavFor: '.promo__carousel',
+        dots: false,
+        centerMode: true,
+        focusOnSelect: true
       });
   });
 
