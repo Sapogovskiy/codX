@@ -45,3 +45,6 @@ tabsBtn.forEach(function(item) {
 });
 
 document.querySelector('.tabs__nav-btn').click();
+
+
+
