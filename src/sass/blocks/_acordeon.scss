@@ -1,0 +1,33 @@
+.acordeon {
+    &__btn {
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 24px;
+        width: 100%;
+        color: #2F2F2F;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 23px 321px 29px 26px;
+        cursor: pointer;
+    }
+    &__btn:after {
+        content: "";
+        display: flex;
+        
+        width: 17px;
+        height: 17px;
+        border-top: 3px solid #79AF98;
+        border-left: 3px solid #79AF98;
+        transform: rotate(225deg);
+        
+    }
+    &__content {
+        width: 725px;
+        max-height: 0;
+        overflow: hidden;
+        transition: 0.5s;
+        padding-left: 26px;
+        color: darkblue;
+    }
+}

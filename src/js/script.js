@@ -3,21 +3,12 @@ $(document).ready(function(){
         slidesToShow: 1,
         slidesToScroll: 1,
         arrows: false,
-        fade: true,
+        fade: false,
         asNavFor: '.carousel__inner'
       });
-    // $('.carousel__inner').slick({
-    //     infinite: true,
-    //     arrows: false,
-    //     asNavFor: '.promo__carousel',
-    //     autoplay: true,
-    //     autoplaySpeed: 2000,
-    //     slidesToShow: 2,
-    //     slidesToScroll: 1
-    //   });
 
       $('.carousel__inner').slick({
-        slidesToShow: 8,
+        slidesToShow: 4,
         slidesToScroll: 1,
         asNavFor: '.promo__carousel',
         dots: false,
@@ -55,5 +46,19 @@ tabsBtn.forEach(function(item) {
 
 document.querySelector('.tabs__nav-btn').click();
 
+
+document.querySelectorAll('.acordeon__btn').forEach((el) => {
+    el.addEventListener('click' , () => {
+        
+        let accordionContent = el.nextElementSibling;
+        if (accordionContent.style.maxHeight) {
+            document.querySelectorAll('.acordeon__content').forEach((el) => el.style.maxHeight = null)
+        } else {
+            document.querySelectorAll('.acordeon__content').forEach((el) => el.style.maxHeight = null)
+            accordionContent.style.maxHeight = accordionContent.scrollHeight + 'px'
+            
+        }
+    })
+});
 
 
